@@ -14,7 +14,6 @@
         android:layout_height="match_parent"
         android:padding="16dp">
 
-
         <ImageView
             android:id="@+id/header_image"
             android:layout_width="150dp"
@@ -33,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:gravity="center_horizontal"
-            android:text="Shane Denise Bergado"
+            android:text="@string/shane_denise_bergado"
             android:textColor="#FFFFFF"
             android:textSize="25sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -47,7 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="90dp"
             android:gravity="center_horizontal"
-            android:text="Data Scientist"
+            android:text="@string/data_scientist"
             android:textColor="#FFFFFF"
             android:textSize="21sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -61,10 +60,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="170dp"
             android:gravity="center_horizontal"
-            android:drawableStart="@android:drawable/stat_sys_phone_call"
-            android:text="+639706497041"
+            android:text="@string/_639706497041"
             android:textColor="#FFFFFF"
             android:textSize="19sp"
+            app:drawableStartCompat="@android:drawable/stat_sys_phone_call"
             app:layout_constraintTop_toBottomOf="@id/company_name"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -75,10 +74,10 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:layout_marginTop="19dp"
-            android:drawableStart="@android:drawable/ic_dialog_email"
-            android:text="shanebergs1@gmail.com"
+            android:text="@string/shanebergs1_gmail_com"
             android:textColor="#FFFFFF"
             android:textSize="19sp"
+            app:drawableStartCompat="@android:drawable/ic_dialog_email"
             app:layout_constraintTop_toBottomOf="@id/phone_number"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -89,17 +88,14 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:layout_marginTop="19dp"
-            android:drawableStart="@android:drawable/ic_dialog_map"
-            android:text="Baguio City,Philippines"
+            android:text="@string/baguio_city_philippines"
             android:textColor="#FFFFFF"
             android:textSize="19sp"
-            app:layout_constraintTop_toBottomOf="@+id/email_address"
+            app:drawableStartCompat="@android:drawable/ic_dialog_map"
+            app:layout_constraintTop_toBottomOf="@id/email_address"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </LinearLayout>
-    schemas.android.com
-
-
